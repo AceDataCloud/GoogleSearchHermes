@@ -1,0 +1,13 @@
+{
+  "name": "acedatacloud-google-search",
+  "version": "1.0.0",
+  "description": "Google web and news search with links and snippets through your Ace Data Cloud account.",
+  "author": "AceDataCloud",
+  "requires_hermes": ">=0.21.6",
+  "provides_tools": [
+    "acedata_google_search_search"
+  ],
+  "requires_env": [
+    "ACEDATACLOUD_API_KEY"
+  ]
+}
