@@ -1,11 +1,11 @@
 {
   "name": "acedatacloud-google-search",
   "version": "1.0.0",
-  "description": "Google web and news search with links and snippets through your Ace Data Cloud account.",
   "author": "AceDataCloud",
-  "requires_hermes": ">=0.21.6",
+  "description": "Google Search by Ace Data Cloud: source-only single-service Git plugin. Calls spend paid Credits without a Hermes approval prompt; model options can increase cost. Prompts/reference URLs go to api.acedata.cloud. Never automatically retry a paid request.",
+  "requires_hermes": ">=0.23.1",
   "provides_tools": [
-    "acedata_google_search_search"
+    "acedatacloud_single_google_search_search"
   ],
   "requires_env": [
     "ACEDATACLOUD_API_KEY"
