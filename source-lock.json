@@ -1,0 +1,36 @@
+{
+  "canonical_repository": "https://github.com/AceDataCloud/AceDataCloudMediaHermes",
+  "canonical_commit": "4ebf0fa803b92a1bc8b41fb4d4cd3ce3aacf06a7",
+  "generator": "scripts/export_service.py",
+  "service": "google-search",
+  "consumer_repository": "https://github.com/AceDataCloud/GoogleSearchHermes",
+  "canonical_contract": "services/google-search.json",
+  "identity_map": {
+    "tool_prefix": [
+      "acedatacloud_google_search",
+      "acedatacloud_single_google_search"
+    ],
+    "toolset": [
+      "acedatacloud-google-search",
+      "acedatacloud-single-google-search"
+    ],
+    "native_image_provider": null
+  },
+  "transport_sha256": "2653fd9275cbda09beff43968d943baa82df83656217d08ddeb9521cc99b1d7f",
+  "canonical_operation_sha256": "8078fb122e20cf9f3400c6291bb7189840723aba3a3a3675834b8efb29e899d1",
+  "generated_files": {
+    "__init__.py": "befe7ccc20f9dc0cd05d3c62fe25f036ab59371a82de41ef4edbc581af803aa5",
+    "client.py": "2653fd9275cbda09beff43968d943baa82df83656217d08ddeb9521cc99b1d7f",
+    "image_provider.py": "183dc1f72fa1905364466aa30da14d82c074d3484ee6a6a6a5b739a62342490c",
+    "services/google-search.json": "40e6cc78fa65fdbf378a58d9fb843e16baef9aa0e9197760b1d08ebffdf3abae",
+    "plugin.yaml": "2f63b734a9c6af7777e3f8ba9d8e3e409ed8125bb933b9af4a92f8d220f6ee13",
+    "tests/test_contracts.py": "fa834427da679d6abb5a4a697f2d8a5ea18fcd9589aef7cb7077c3ebf5ff7dd3",
+    "tests/test_registration.py": "a3b2904d16e44ab70696555165f6b05465cfc978b5fe5160cbca9acebc22845d",
+    "tests/test_source_profile.py": "d29b78f9671e46fccfa1239c8f864ae282c19c8f7d9411b8b2ac2138373336ba",
+    "scripts/check_runtime.py": "be594c81cf4436cc9689babae0344815268aab33345afc391221079be151e90f",
+    "LICENSE": "72d30730d068e067be58878959bac2450f5a05f2b2e3c365cdc13a0181635c3c",
+    ".github/workflows/validate.yml": "d2b9cc69bd5f8185d6155107dd31208d7f5758d73b96e398633667adb60d9c02",
+    "README.md": "ccee8398ed539c67da36686b9380c4fde6adb31c324e39ff41ba7270d3a0ff1c",
+    "readme/README_zh_Hans.md": "43aeb8e9a6e03ed898ce18f94a2fff2a629ce0873b745a6215be6699e17cd9f3"
+  }
+}
